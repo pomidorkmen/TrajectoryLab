@@ -7,7 +7,7 @@
 
 **Windows 10/11 (x64)**
 
-[⬇ Download TrajectoryLab for Windows](https://github.com/pomidorkmen/TrajectoryLab/releases/download/v0.4.2-preview/TrajectoryLab_Windows.zip)
+[⬇ Download TrajectoryLab for Windows](https://github.com/pomidorkmen/TrajectoryLab/blob/main/TrajectoryLab_Windows.zip)
 
 TrajectoryLab is a local scientific desktop application for reproducible, low-speed
 experiments involving spherical particles. The numerical core is independent from
