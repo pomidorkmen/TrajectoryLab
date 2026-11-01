@@ -151,5 +151,8 @@ The Windows bootstrapper is distributed as a GitHub Release asset, not tracked i
 - `GITHUB_PUBLISH_GUIDE.md`: instructions for publishing this local Git repository.
 - `RELEASE_CHECKLIST.md`: remaining acceptance tasks.
 
+
+
+
 ![gif](spinning-tomato-tomato.gif)
 
