@@ -1,0 +1,68 @@
+/* TrajectoryLab Soft Pink — restrained scientific desktop theme. */
+QMainWindow, QWidget {
+    background: #f3edf0;
+    color: #30272d;
+    font-family: "Segoe UI", "Tahoma", sans-serif;
+    font-size: 9pt;
+}
+QMenuBar, QMenu, QToolBar, QStatusBar {
+    background: #e8dfe4;
+    color: #30272d;
+    border: 1px solid #b9aab2;
+}
+QMenuBar::item { padding: 3px 8px; }
+QMenuBar::item:selected, QMenu::item:selected { background: #e8c8d6; color: #422c37; }
+QToolBar { spacing: 3px; padding: 2px; }
+QDockWidget { border: 1px solid #b9aab2; }
+QDockWidget::title {
+    background: #e7d7df;
+    padding: 4px 6px;
+    border-bottom: 1px solid #b9aab2;
+    text-align: left;
+    font-weight: 600;
+}
+QGroupBox {
+    border: 1px solid #c7b7c0;
+    margin-top: 8px;
+    padding: 6px 4px 4px 4px;
+    font-weight: 600;
+}
+QGroupBox::title { subcontrol-origin: margin; left: 7px; padding: 0 3px; }
+QLineEdit, QDoubleSpinBox, QSpinBox, QComboBox, QPlainTextEdit, QTableView {
+    background: #fffafb;
+    color: #30272d;
+    border: 1px solid #b8a6b0;
+    selection-background-color: #d9a9bd;
+    selection-color: #30232a;
+    padding: 2px;
+}
+QPushButton {
+    background: #e9dce3;
+    border: 1px solid #b49eaa;
+    padding: 4px 9px;
+}
+QPushButton:hover { background: #eed3df; }
+QPushButton:pressed { background: #dfbacb; }
+QPushButton:disabled { color: #a69aa0; background: #e9e2e6; }
+QTabWidget::pane { border: 1px solid #b8a6b0; top: -1px; }
+QTabBar::tab {
+    background: #e7dbe1;
+    border: 1px solid #b8a6b0;
+    padding: 4px 10px;
+    margin-right: 1px;
+}
+QTabBar::tab:selected { background: #fffafb; border-bottom-color: #fffafb; }
+QHeaderView::section {
+    background: #eadfe5;
+    border: 1px solid #c7b7c0;
+    padding: 3px;
+    font-weight: 600;
+}
+QProgressBar { border: 1px solid #b8a6b0; text-align: center; }
+QProgressBar::chunk { background: #c47f9c; }
+QScrollArea { border: 0; }
+QSplitter::handle { background: #d5c4cd; }
+QToolTip { background: #fffafb; color: #30272d; border: 1px solid #a98d9c; }
+QTableView::item:selected { background: #efd4e0; color: #30232a; }
+QCheckBox::indicator:checked { background: #c47f9c; border: 1px solid #8e5670; }
+QRadioButton::indicator:checked { background: #c47f9c; border: 1px solid #8e5670; }

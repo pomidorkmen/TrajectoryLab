@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "name": "User table reference for a rigid sphere",
+  "mass": {
+    "value": 0.0001,
+    "unit": "kg"
+  },
+  "diameter": {
+    "value": 0.002,
+    "unit": "m"
+  },
+  "initial_position": [
+    {
+      "value": 0.0,
+      "unit": "m"
+    },
+    {
+      "value": 1.0,
+      "unit": "m"
+    },
+    {
+      "value": 0.0,
+      "unit": "m"
+    }
+  ],
+  "initial_velocity": [
+    {
+      "value": 0.25,
+      "unit": "m/s"
+    },
+    {
+      "value": 0.0,
+      "unit": "m/s"
+    },
+    {
+      "value": 0.0,
+      "unit": "m/s"
+    }
+  ],
+  "duration": {
+    "value": 0.25,
+    "unit": "s"
+  },
+  "time_step": {
+    "value": 0.0025,
+    "unit": "s"
+  },
+  "atmosphere": {
+    "model": "constant",
+    "density": {
+      "value": 1.225,
+      "unit": "kg/m^3"
+    },
+    "temperature": {
+      "value": 288.15,
+      "unit": "K"
+    }
+  },
+  "drag": {
+    "model": "tabular",
+    "interpolation": "log-log",
+    "extrapolation": "clamp",
+    "name": "Illustrative spherical Cd(Re) table",
+    "version": "1.0.0",
+    "points": [
+      {
+        "reynolds": 0.01,
+        "cd": 2415.0
+      },
+      {
+        "reynolds": 0.1,
+        "cd": 247.4
+      },
+      {
+        "reynolds": 1.0,
+        "cd": 27.6
+      },
+      {
+        "reynolds": 10.0,
+        "cd": 4.15
+      },
+      {
+        "reynolds": 100.0,
+        "cd": 1.118
+      },
+      {
+        "reynolds": 800.0,
+        "cd": 0.479
+      }
+    ]
+  },
+  "method": "dop853",
+  "rtol": 1e-09,
+  "atol": 1e-12,
+  "seed": 1729
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "name": "Gravity-only reference trajectory",
+  "mass": {"value": 0.5, "unit": "kg"},
+  "diameter": {"value": 0.1, "unit": "m"},
+  "initial_position": [
+    {"value": 0.0, "unit": "m"},
+    {"value": 3.0, "unit": "m"},
+    {"value": 0.0, "unit": "m"}
+  ],
+  "initial_velocity": [
+    {"value": 1.0, "unit": "m/s"},
+    {"value": 1.0, "unit": "m/s"},
+    {"value": 0.0, "unit": "m/s"}
+  ],
+  "duration": {"value": 0.2, "unit": "s"},
+  "time_step": {"value": 0.01, "unit": "s"},
+  "atmosphere": {"model": "isa"},
+  "drag": {"model": "none"},
+  "method": "rk4",
+  "seed": 1729
+}

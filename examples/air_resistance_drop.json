@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "name": "Small spherical particle settling in air",
+  "mass": {"value": 1.308996939e-9, "unit": "kg"},
+  "diameter": {"value": 0.0001, "unit": "m"},
+  "initial_position": [
+    {"value": 0.0, "unit": "m"},
+    {"value": 2.0, "unit": "m"},
+    {"value": 0.0, "unit": "m"}
+  ],
+  "initial_velocity": [
+    {"value": 0.0, "unit": "m/s"},
+    {"value": 0.0, "unit": "m/s"},
+    {"value": 0.0, "unit": "m/s"}
+  ],
+  "duration": {"value": 0.75, "unit": "s"},
+  "time_step": {"value": 0.001, "unit": "s"},
+  "atmosphere": {"model": "isa"},
+  "drag": {"model": "schiller_naumann"},
+  "method": "rk4",
+  "seed": 1729
+}

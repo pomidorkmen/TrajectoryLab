@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "kind": "tabular_drag",
+  "id": "example.tabular_sphere",
+  "name": "Illustrative sphere Cd(Re) table",
+  "version": "1.1.0",
+  "author": "TrajectoryLab example",
+  "source": "Illustrative values for software demonstration; not experimental reference data",
+  "geometry": "sphere",
+  "validity": {
+    "reynolds_min": 0.01,
+    "reynolds_min_inclusive": true,
+    "reynolds_max": 800.0,
+    "reynolds_max_inclusive": true
+  },
+  "interpolation": "log-log",
+  "extrapolation": "error",
+  "points": [
+    {"reynolds": 0.01, "cd": 2415.0},
+    {"reynolds": 0.1, "cd": 247.4},
+    {"reynolds": 1.0, "cd": 27.6},
+    {"reynolds": 10.0, "cd": 4.15},
+    {"reynolds": 100.0, "cd": 1.118},
+    {"reynolds": 800.0, "cd": 0.479}
+  ]
+}
