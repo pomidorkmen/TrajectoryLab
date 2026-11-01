@@ -3,6 +3,12 @@
 ![TrajectoryLab logo](trajectory_lab/ui/resources/trajectorylab_logo.png)
 
 
+## ⬇️ Download
+
+**Windows 10/11 (x64)**
+
+[⬇ Download TrajectoryLab for Windows](https://github.com/pomidorkmen/TrajectoryLab/releases/download/v0.4.2-preview/TrajectoryLab_Windows.zip)
+
 TrajectoryLab is a local scientific desktop application for reproducible, low-speed
 experiments involving spherical particles. The numerical core is independent from
 the Qt interface and uses SI `float` values; Pint validates physical quantities at
